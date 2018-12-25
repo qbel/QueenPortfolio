@@ -1,0 +1,150 @@
+#new{
+    padding-right: 30px;
+    font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar-nav a:hover{
+    background-color: #009688;
+    color: white !important;
+}
+#test{
+    font-family: 'Playball', cursive;
+    font-size:45px;
+}
+.flex-center1{
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    height:100%
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+    text-align: center;
+    color: white;
+    padding-top:20%;
+    padding-bottom: 5px;
+}
+  
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+#web{   
+    text-align:center;
+    padding-bottom: 20px;
+}
+#doh{
+    font-weight: 900;
+    font-size: 3.5em;
+    text-align: center;
+    color: gray;
+    padding-top:5%;
+    padding-bottom: 5px;
+}
+#skill{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1rem;
+}
+#next{
+    font-family: 'Mali', cursive;
+}
+.serve{
+    text-align: center;
+}
+#test2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 0.9em;
+}
+#inner{
+    background-color:#009688;
+}
+
+.timer{
+    width:200px;
+    margin:20px auto;
+    text-align:center;
+    /* display:block; */
+    font-size:80px;
+    color: white;
+}
+#help{
+    width:500px;
+    margin:20px auto;
+    text-align:center;
+    /* display:block; */
+    font-size:60px;
+}
+
+#back2Top {
+    width: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: white ;
+    color: #009688;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: white;
+    color: #009688;
+}
+.progress-bar{
+    background-color: teal;
+}
+.nav-pills .nav-link.active,.nav-pills .show>.nav-link{
+    color:#fff;
+    background-color:teal !important
+}
+#viewing{
+    background-image: url('../img/Front.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    text-align: center;
+}
+.viewing-overlay{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: teal;
+    opacity: 0.5;
+    /* text-align: center; */
+}
+.femi{
+    z-index: 10;
+    position: relative;
+}
+@media (max-width: 1024px){
+    #queen{
+        padding-top:250px;
+    }
+    .girls{
+        text-align: center;
+    } 
+}
